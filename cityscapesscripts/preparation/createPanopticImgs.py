@@ -174,12 +174,12 @@ def main():
     parser.add_argument("--dataset-folder",
                         dest="cityscapesPath",
                         help="path to the Cityscapes dataset 'gtFine' folder",
-                        default=None,
+                        default='/home/xianr/TurboRuns/cityscapes/newdivide/gtFine',
                         type=str)
     parser.add_argument("--output-folder",
                         dest="outputFolder",
                         help="path to the output folder.",
-                        default=None,
+                        default='/home/xianr/TurboRuns/cityscapes/newdivide/panoptic',
                         type=str)
     parser.add_argument("--use-train-id", action="store_true", dest="useTrainId")
     args = parser.parse_args()
